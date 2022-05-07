@@ -12,7 +12,7 @@
 		}
 	],
     "icons": {
-        "128": "img/icon.png"
+        "128": "icon.png"
     },
     "host_permissions": [
         "*://*.youtube.com/*"

@@ -1,0 +1,1 @@
+document.querySelectorAll('.ytp-remote-button').forEach(button => button.remove());

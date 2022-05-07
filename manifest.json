@@ -1,0 +1,20 @@
+{
+    "name": "YouTube No Cast",
+    "description": "",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*"],
+			"js": ["index.js"],
+			"all_frames": true,
+			"run_at": "document_end"
+		}
+	],
+    "icons": {
+        "128": "img/icon.png"
+    },
+    "host_permissions": [
+        "*://*.youtube.com/*"
+    ]
+}

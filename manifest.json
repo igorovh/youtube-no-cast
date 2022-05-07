@@ -1,6 +1,6 @@
 {
     "name": "YouTube No Cast",
-    "description": "",
+    "description": "Removing YouTube cast button.",
     "version": "1.0.0",
     "manifest_version": 3,
     "content_scripts": [
